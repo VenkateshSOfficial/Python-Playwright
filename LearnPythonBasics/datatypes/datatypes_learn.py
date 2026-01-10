@@ -83,5 +83,13 @@ print(data["d"])
 for key,value in data.items():
     print(key,value)
 
+print("====================================")
+
+# create dictionary in runtime
+val={}
+val["Name"]="Kaushik"
+val["AGE"]=34
+print(val)
+
 
 
