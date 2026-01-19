@@ -1,0 +1,7 @@
+b=15
+if b>10:
+    print("Number is greater than 10")
+    print("Comparison code is completed")
+else:
+    print("Number is 10 or less")
+    print("Comparison code is completed")
