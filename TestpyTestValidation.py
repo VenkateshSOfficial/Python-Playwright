@@ -5,6 +5,12 @@ import pytest
 # so it will run before each function in this file
 @pytest.fixture(scope="function")
 # we can use module as well in the scope to run only once before all tests in the module or the test file
+# various modules are like below
+# function - runs before each test function
+# class - runs once before each class of tests
+# module - runs once before all tests in a module
+# session - runs once before all tests in the entire test suite
+
 def preWork():
     print("I setup browser instance")
 
